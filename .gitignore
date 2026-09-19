@@ -43,3 +43,5 @@ best.pt
 *.mp4
 *.jpg
 *.png
+
+!result_plate.jpg

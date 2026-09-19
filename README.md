@@ -61,3 +61,16 @@ car_plate_app/
 ├── ocr_module.py            # 單例模式 OCR 文字辨識模組
 └── test_license_car_plate.py# YOLO 偵測與影片處理核心邏輯
 ```
+
+
+## 📊 辨識成果展示 (Results Demo)
+
+### 📸 圖片車牌辨識 (YOLOv8 + EasyOCR)
+成功定位車牌並將局部影像切片送入單例文字辨識模組，精確提取英數字號碼：
+
+![車牌辨識結果](result_plate.jpg)
+
+### 🎬 影片批量加速偵測 (GPU Batch = 16)
+*提示：影片檔案已透過 Issue 附件優化上傳，可在瀏覽器直接在線觀看辨識與綠框追蹤效果。*
+
+[請在這邊貼上你從 GitHub Issues 拖曳影片後自動生成的 https://github.com... 網址]
