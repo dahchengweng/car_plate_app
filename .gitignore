@@ -1,0 +1,45 @@
+# Python 暫存與編譯檔案
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+dataset/
+
+*.zip
+
+# Streamlit 執行階段暫存與本機設定
+.streamlit/
+!/.streamlit/config.toml
+
+# ⚠️ AI 模型權重檔案 (嚴禁上傳 GitHub)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# ⚠️ 網頁執行時產生的暫存圖片、大影片檔案 (嚴禁上傳 GitHub)
+temp_upload.jpg
+temp_upload.mp4
+output_raw.mp4
+output_compressed.mp4
+result_plate_processed.jpg
+
+# 各種編輯器及系統暫存
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+*.mp4
+*.jpeg
+
+car_plate.zip
+
+best.pt
+*.mp4
+*.jpg
+*.png
