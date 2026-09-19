@@ -73,4 +73,12 @@ car_plate_app/
 ### 🎬 影片批量加速偵測 (GPU Batch = 16)
 *提示：影片檔案已透過 Issue 附件優化上傳，可在瀏覽器直接在線觀看辨識與綠框追蹤效果。*
 
-[請在這邊貼上你從 GitHub Issues 拖曳影片後自動生成的 https://github.com... 網址]
+
+
+## 🤝 致謝與資料來源 (Acknowledgments & Data Sources)
+
+本專案之訓練資料集與相關技術靈感來源如下，特此致謝：
+
+- **原始資料集 (Dataset)**：感謝 [yolo8/kaggle]
+https://www.kaggle.com/code/ztrollk/license-plate-detection-with-yolov8 
+。本專案採用其提供的 453 張 JPEG 圖片及 PASCAL VOC 標註檔案進行 YOLOv8 模型微調。
